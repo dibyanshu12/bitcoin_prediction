@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+
+
+    <style>
+    .fa {
+      padding: 5px;
+      font-size: 20px;
+      width: 30px;
+      height: 26px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      
+
+    }
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 5px 5px
+    
+    
+    }
+ 
+    .fa-linkedin{
+      background: #0e76a8 ;
+      color: white;
+      margin: 5px 5px
+
+    }
+    .fa-instagram{
+      background: #cd486b ;
+      color: white;
+      margin: 5px 5px;
+    }
+    
+    .photo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120%;
+    width: 100%;
+    background-image: url("{{ url_for('static', filename = 'Bitcoin-dust-scaled.jpg') }}");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size : cover;
+    opacity: 0.4;
+    }
+    </style>
+   
+    <title>Bitcoin prediction</title>
+</head>
+<body>
+  <div class="photo"></div>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+
+
+         
+        </div>
+      </header>
+    <section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-15 items-center justify-center flex-col">
+    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded-xl" alt="img" src="{{ url_for('static', filename = 'bitcoin price latest crypto.jpg') }}" >
+    <div class="text-center lg:w-2/3 w-full">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">What is the bitcoin price?</h1>
+      <div class="flex justify-center">
+      <a href="/predict"> <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Predict</button></a>
+      <a href="/dash"> <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Dashboard</button></a>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+  </section>
+  
+  
+  
+      
+    
+
+
+
+           
+            
+            
+          </span>
+        </div>
+      </footer>
+</body>
+</html>
+
