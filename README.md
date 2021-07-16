@@ -4,9 +4,7 @@ In this project we have used bidirection LSTM to predict the bitcoin price for t
 Python 3.0
 
 Flask
-
 Tensorflow 2.0
-
 Pandas
 
 <h1>Implementation</h1>
