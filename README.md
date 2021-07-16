@@ -3,6 +3,7 @@ In this project we have used bidirection LSTM to predict the bitcoin price for t
 <h1>Requirements</h1>
 Python 3.0 and above
 
+
 Flask
 
 Tensorflow 2.0
